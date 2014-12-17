@@ -1,4 +1,6 @@
-FROM tifayuki/java:7
+# Pull base image.
+FROM dockerfile/java:oracle-java7
+
 MAINTAINER Feng Honglin <hfeng@tutum.co>
 
 RUN apt-get update && \
